@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>158730453275-rf1t7f03plrvh1e986o120igtee59e6a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.158730453275-rf1t7f03plrvh1e986o120igtee59e6a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBg_x9OMTVhcNJoGr6-SagztRLcc37Fdgw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>158730453275</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Thomas.RecipeTracker.RecipeTracker</string>
+	<key>PROJECT_ID</key>
+	<string>recipetracker-46455</string>
+	<key>STORAGE_BUCKET</key>
+	<string>recipetracker-46455.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:158730453275:ios:ebfd663693eabc048393be</string>
+	<key>DATABASE_URL</key>
+	<string>https://recipetracker-46455.firebaseio.com</string>
+</dict>
+</plist>
