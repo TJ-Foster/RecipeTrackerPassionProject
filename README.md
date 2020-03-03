@@ -1,2 +1,3 @@
 # PassionProject
-Recipe App
+Recipe App for IOS
+Utilizing firebase for login/storage
