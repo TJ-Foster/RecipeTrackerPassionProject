@@ -18,7 +18,5 @@ class ViewController: UIViewController {
       ref = Database.database().reference()
       ref.setValue("Test")
     }
-
-
 }
 
