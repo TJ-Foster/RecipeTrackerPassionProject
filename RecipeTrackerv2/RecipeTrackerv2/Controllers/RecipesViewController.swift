@@ -73,11 +73,11 @@ class RecipesViewController: UIViewController, UITableViewDelegate, UITableViewD
         recipesDB.observe(.childAdded) { ( snapShot ) in
             // Originally data was stored as a dictionary so need to cast the value we're getting from firebase into a dictionary
         if let value = snapShot.value as? Dictionary<String, String>,
+            let name = value["Recipe Name"],
             let ingredients = value["Ingredients"],
-            let instructions = value["Instructions"],
-            let recipeName = value["Recipe Name"] {
-            // create a new recipe object from the data received from firebase
-            let recipe = Recipe(ingredients: ingredients, instructions: instructions)
+            let instructions = value["Instructions"]{
+            // create a Recipe object from the data received from firebase
+            let recipe = Recipe(name: name, ingredients: ingredients, instructions: instructions)
             // add the new recipes to our recipes array
             self.recipes.append(recipe)
             //reload the table

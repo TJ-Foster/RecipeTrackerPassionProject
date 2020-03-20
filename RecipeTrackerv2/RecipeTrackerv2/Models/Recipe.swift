@@ -3,7 +3,7 @@ class Recipe {
     var ingredients: String
     var instructions: String
     
-    init(ingredients: String, instructions: String, name: String){
+    init(name: String, ingredients: String, instructions: String){
         self.name = name
         self.ingredients = ingredients
         self.instructions = instructions
