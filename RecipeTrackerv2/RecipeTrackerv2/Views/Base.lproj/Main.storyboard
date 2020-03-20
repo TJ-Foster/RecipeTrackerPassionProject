@@ -20,11 +20,12 @@
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1er-dV-Bdj">
                                         <rect key="frame" x="116.5" y="0.0" width="141" height="32"/>
-                                        <color key="backgroundColor" red="0.50711397855185247" green="0.23588848594010345" blue="0.63862175214404149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <segments>
                                             <segment title="Login"/>
                                             <segment title="Register"/>
                                         </segments>
+                                        <color key="selectedSegmentTintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="loginToggleTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="cJS-ae-gkh"/>
                                         </connections>
@@ -73,7 +74,7 @@
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGN-WO-xQL">
                                         <rect key="frame" x="120" y="243.5" width="134" height="40"/>
-                                        <color key="backgroundColor" red="0.50711397859999996" green="0.2358884859" blue="0.63862175210000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Qsd-NX-Pmh"/>
                                         </constraints>
@@ -102,7 +103,7 @@
                                 <rect key="frame" x="20" y="108" width="374" height="174"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PiY-X7-ABM" firstAttribute="top" secondItem="und-LQ-TTr" secondAttribute="bottom" constant="24.5" id="81O-jU-GT6"/>
                             <constraint firstItem="und-LQ-TTr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DGf-i0-XOA"/>

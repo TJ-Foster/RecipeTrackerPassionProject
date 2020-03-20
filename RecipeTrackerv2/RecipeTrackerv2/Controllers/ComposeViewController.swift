@@ -38,10 +38,10 @@ class ComposeViewController: UIViewController {
         if let recipeName = recipeTextField?.text {
             
             guard let userID = Auth.auth().currentUser?.uid else { return }
-            
-//            self.ref.child("users").child(userID).setValue("username")
-            ref?.child("users").child(userID).child(recipeName).child("Ingredients").setValue(ingredientsTextView.text)
+             ref?.child("users").child(userID).child(recipeName).child("Ingredients").setValue(ingredientsTextView.text)
             ref?.child("users").child(userID).child(recipeName).child("Instructions").setValue(instructionsTextView.text)
+            
+            ref?.child("users").child(userID).child(recipeName).child("Recipe Name").setValue(recipeName)
             
         }
         

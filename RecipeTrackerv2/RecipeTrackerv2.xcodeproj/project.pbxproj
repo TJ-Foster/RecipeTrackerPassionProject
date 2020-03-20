@@ -17,6 +17,7 @@
 		E9C18E43241DAE4C00B92DEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9C18E42241DAE4C00B92DEC /* GoogleService-Info.plist */; };
 		E9C18E45241DC9DD00B92DEC /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E44241DC9DD00B92DEC /* ComposeViewController.swift */; };
 		E9C18E47241DCC3900B92DEC /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E46241DCC3900B92DEC /* RecipesViewController.swift */; };
+		E9C18E49242065F800B92DEC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E48242065F800B92DEC /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E9C18E42241DAE4C00B92DEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E9C18E44241DC9DD00B92DEC /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		E9C18E46241DCC3900B92DEC /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		E9C18E48242065F800B92DEC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,18 +88,43 @@
 		E9C18E2D241DAE3F00B92DEC /* RecipeTrackerv2 */ = {
 			isa = PBXGroup;
 			children = (
+				E9C18E4C2420668F00B92DEC /* Views */,
+				E9C18E4B2420668600B92DEC /* Controllers */,
+				E9C18E4A2420666700B92DEC /* Models */,
 				E9C18E2E241DAE3F00B92DEC /* AppDelegate.swift */,
 				E9C18E30241DAE3F00B92DEC /* SceneDelegate.swift */,
-				E9C18E32241DAE3F00B92DEC /* ViewController.swift */,
-				E9C18E44241DC9DD00B92DEC /* ComposeViewController.swift */,
-				E9C18E46241DCC3900B92DEC /* RecipesViewController.swift */,
-				E9C18E34241DAE3F00B92DEC /* Main.storyboard */,
 				E9C18E37241DAE4000B92DEC /* Assets.xcassets */,
-				E9C18E39241DAE4000B92DEC /* LaunchScreen.storyboard */,
 				E9C18E3C241DAE4000B92DEC /* Info.plist */,
 				E9C18E42241DAE4C00B92DEC /* GoogleService-Info.plist */,
 			);
 			path = RecipeTrackerv2;
+			sourceTree = "<group>";
+		};
+		E9C18E4A2420666700B92DEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9C18E48242065F800B92DEC /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9C18E4B2420668600B92DEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9C18E32241DAE3F00B92DEC /* ViewController.swift */,
+				E9C18E46241DCC3900B92DEC /* RecipesViewController.swift */,
+				E9C18E44241DC9DD00B92DEC /* ComposeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9C18E4C2420668F00B92DEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9C18E34241DAE3F00B92DEC /* Main.storyboard */,
+				E9C18E39241DAE4000B92DEC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +246,7 @@
 				E9C18E33241DAE3F00B92DEC /* ViewController.swift in Sources */,
 				E9C18E2F241DAE3F00B92DEC /* AppDelegate.swift in Sources */,
 				E9C18E31241DAE3F00B92DEC /* SceneDelegate.swift in Sources */,
+				E9C18E49242065F800B92DEC /* Recipe.swift in Sources */,
 				E9C18E47241DCC3900B92DEC /* RecipesViewController.swift in Sources */,
 				E9C18E45241DC9DD00B92DEC /* ComposeViewController.swift in Sources */,
 			);
