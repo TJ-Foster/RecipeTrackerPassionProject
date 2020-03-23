@@ -63,7 +63,7 @@ class ViewController: UIViewController {
                 // Login user with firebase
                 Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
                     
-                    if let u = user {
+                    if user != nil {
                         // User is found, go to next screen
                         self.performSegue(withIdentifier: "showMain", sender: self)
                     }
@@ -78,7 +78,7 @@ class ViewController: UIViewController {
                 // Register user with firebase
                 Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
                     
-                    if let u = user {
+                    if user != nil {
                         // User is found, go to next screen
                         self.performSegue(withIdentifier: "showMain", sender: self)
                     }

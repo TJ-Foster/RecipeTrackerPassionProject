@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		463F05EB0AEB6C60B4D9F474 /* Pods_RecipeTrackerv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF8D416C98252D1246E1BE1 /* Pods_RecipeTrackerv2.framework */; };
+		E98B175C2429332000F223C9 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B175B2429332000F223C9 /* RecipeDetailViewController.swift */; };
 		E9C18E2F241DAE3F00B92DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E2E241DAE3F00B92DEC /* AppDelegate.swift */; };
 		E9C18E31241DAE3F00B92DEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E30241DAE3F00B92DEC /* SceneDelegate.swift */; };
 		E9C18E33241DAE3F00B92DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C18E32241DAE3F00B92DEC /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		502C3C3FEA7647A4612F6A31 /* Pods-RecipeTrackerv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTrackerv2.release.xcconfig"; path = "Target Support Files/Pods-RecipeTrackerv2/Pods-RecipeTrackerv2.release.xcconfig"; sourceTree = "<group>"; };
 		5AF8D416C98252D1246E1BE1 /* Pods_RecipeTrackerv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeTrackerv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01EEC2CDCA9D16782CD1BFA /* Pods-RecipeTrackerv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTrackerv2.debug.xcconfig"; path = "Target Support Files/Pods-RecipeTrackerv2/Pods-RecipeTrackerv2.debug.xcconfig"; sourceTree = "<group>"; };
+		E98B175B2429332000F223C9 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		E9C18E2B241DAE3F00B92DEC /* RecipeTrackerv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeTrackerv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C18E2E241DAE3F00B92DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C18E30241DAE3F00B92DEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E9C18E32241DAE3F00B92DEC /* ViewController.swift */,
 				E9C18E46241DCC3900B92DEC /* RecipesViewController.swift */,
 				E9C18E44241DC9DD00B92DEC /* ComposeViewController.swift */,
+				E98B175B2429332000F223C9 /* RecipeDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				E9C18E33241DAE3F00B92DEC /* ViewController.swift in Sources */,
 				E9C18E2F241DAE3F00B92DEC /* AppDelegate.swift in Sources */,
+				E98B175C2429332000F223C9 /* RecipeDetailViewController.swift in Sources */,
 				E9C18E31241DAE3F00B92DEC /* SceneDelegate.swift in Sources */,
 				E9C18E49242065F800B92DEC /* Recipe.swift in Sources */,
 				E9C18E47241DCC3900B92DEC /* RecipesViewController.swift in Sources */,
