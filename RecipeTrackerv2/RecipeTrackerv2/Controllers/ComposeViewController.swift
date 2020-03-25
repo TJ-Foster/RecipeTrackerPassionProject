@@ -43,7 +43,9 @@ class ComposeViewController: UIViewController {
             
             ref?.child("users").child(userID).child(recipeName).child("Recipe Name").setValue(recipeName)
             
+            self.performSegue(withIdentifier: "returnRecipes", sender: self)
         }
+        
         
     }
     

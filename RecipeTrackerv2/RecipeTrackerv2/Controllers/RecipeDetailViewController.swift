@@ -10,32 +10,17 @@ import UIKit
 
 class RecipeDetailViewController: UIViewController
 {
-    
-    
-
     var recipe: Recipe?
     @IBOutlet weak var ingredientsLabel: UILabel!
     @IBOutlet weak var instructionsLabel: UILabel!
-    
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return recipe?.
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        <#code#>
-//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = recipe?.name
         
-        
         ingredientsLabel.text = recipe?.ingredients
         instructionsLabel.text = recipe?.instructions
         // Do any additional setup after loading the view.
     }
-    
-    
-
 }

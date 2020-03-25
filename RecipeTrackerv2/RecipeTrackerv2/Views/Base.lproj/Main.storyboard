@@ -80,7 +80,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <state key="normal" title="Login">
-                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jWu-y2-tGM"/>
@@ -180,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DoA-M9-hHl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1773.913043478261" y="138.61607142857142"/>
+            <point key="canvasLocation" x="1787" y="139"/>
         </scene>
         <!--Recipe Detail View Controller-->
         <scene sceneID="rP9-jh-Akf">
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dyp-RQ-3ev" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1773.913043478261" y="-569.19642857142856"/>
+            <point key="canvasLocation" x="2551" y="-569"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="94k-jY-Ngq">
@@ -338,6 +338,7 @@
                         <outlet property="ingredientsTextView" destination="vyj-pc-s4h" id="tiG-3P-jre"/>
                         <outlet property="instructionsTextView" destination="zCN-eV-OGY" id="j4h-Iw-lgI"/>
                         <outlet property="recipeTextField" destination="wC9-7a-Rk6" id="B1Y-x9-XWu"/>
+                        <segue destination="bEE-tw-8lV" kind="show" identifier="returnRecipes" id="QFu-uN-w92"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lom-4H-zBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -366,4 +367,7 @@
     <resources>
         <image name="trackerTitle" width="1205" height="558"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0ix-QX-Rh8"/>
+    </inferredMetricsTieBreakers>
 </document>
