@@ -1,0 +1,6 @@
+framework module Pods_RecipeTrackerv2 {
+  umbrella header "Pods-RecipeTrackerv2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13305C593ECEB3F8686893E5 /* Pods_RecipeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B224FE2F3A0ABC3BDB9C5BE /* Pods_RecipeTracker.framework */; };
+		E9028AD8241AF0E0006A73CB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9028AD7241AF0E0006A73CB /* ComposeViewController.swift */; };
+		E9028ADA241B09A9006A73CB /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9028AD9241B09A9006A73CB /* RecipeTableViewController.swift */; };
 		E904B7352405D4A500BFBF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904B7342405D4A500BFBF0F /* AppDelegate.swift */; };
 		E904B7372405D4A500BFBF0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904B7362405D4A500BFBF0F /* SceneDelegate.swift */; };
 		E904B7392405D4A500BFBF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904B7382405D4A500BFBF0F /* ViewController.swift */; };
@@ -18,12 +20,15 @@
 		E906EB25240B3F8400EA4EEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906EB24240B3F8400EA4EEC /* LoginViewController.swift */; };
 		E906EB27240B426B00EA4EEC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906EB26240B426B00EA4EEC /* MainViewController.swift */; };
 		E909154E2405F27900279E4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E909154D2405F27900279E4C /* GoogleService-Info.plist */; };
+		E90A29DB240F3D8900F06568 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90A29DA240F3D8900F06568 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74A9BF7143688E032E2582BB /* Pods-RecipeTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTracker.release.xcconfig"; path = "Target Support Files/Pods-RecipeTracker/Pods-RecipeTracker.release.xcconfig"; sourceTree = "<group>"; };
 		7B224FE2F3A0ABC3BDB9C5BE /* Pods_RecipeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A87F49D75ADE46C77DA711 /* Pods-RecipeTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTracker.debug.xcconfig"; path = "Target Support Files/Pods-RecipeTracker/Pods-RecipeTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		E9028AD7241AF0E0006A73CB /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		E9028AD9241B09A9006A73CB /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 		E904B7312405D4A500BFBF0F /* RecipeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E904B7342405D4A500BFBF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E904B7362405D4A500BFBF0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		E906EB24240B3F8400EA4EEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E906EB26240B426B00EA4EEC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E909154D2405F27900279E4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E90A29DA240F3D8900F06568 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,19 +94,30 @@
 		E904B7332405D4A500BFBF0F /* RecipeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				E90A29DC240F3D9800F06568 /* Views */,
 				E904B7342405D4A500BFBF0F /* AppDelegate.swift */,
 				E904B7362405D4A500BFBF0F /* SceneDelegate.swift */,
 				E904B7382405D4A500BFBF0F /* ViewController.swift */,
-				E904B73A2405D4A500BFBF0F /* Main.storyboard */,
-				E906EB26240B426B00EA4EEC /* MainViewController.swift */,
-				E906EB22240B3F7600EA4EEC /* RegistrationViewController.swift */,
-				E906EB24240B3F8400EA4EEC /* LoginViewController.swift */,
 				E904B73D2405D4A700BFBF0F /* Assets.xcassets */,
-				E904B73F2405D4A700BFBF0F /* LaunchScreen.storyboard */,
 				E904B7422405D4A700BFBF0F /* Info.plist */,
 				E909154D2405F27900279E4C /* GoogleService-Info.plist */,
 			);
 			path = RecipeTracker;
+			sourceTree = "<group>";
+		};
+		E90A29DC240F3D9800F06568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E906EB24240B3F8400EA4EEC /* LoginViewController.swift */,
+				E906EB22240B3F7600EA4EEC /* RegistrationViewController.swift */,
+				E906EB26240B426B00EA4EEC /* MainViewController.swift */,
+				E90A29DA240F3D8900F06568 /* RecipeViewController.swift */,
+				E904B73A2405D4A500BFBF0F /* Main.storyboard */,
+				E904B73F2405D4A700BFBF0F /* LaunchScreen.storyboard */,
+				E9028AD7241AF0E0006A73CB /* ComposeViewController.swift */,
+				E9028AD9241B09A9006A73CB /* RecipeTableViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9028ADA241B09A9006A73CB /* RecipeTableViewController.swift in Sources */,
 				E904B7392405D4A500BFBF0F /* ViewController.swift in Sources */,
 				E904B7352405D4A500BFBF0F /* AppDelegate.swift in Sources */,
+				E90A29DB240F3D8900F06568 /* RecipeViewController.swift in Sources */,
+				E9028AD8241AF0E0006A73CB /* ComposeViewController.swift in Sources */,
 				E906EB23240B3F7600EA4EEC /* RegistrationViewController.swift in Sources */,
 				E906EB27240B426B00EA4EEC /* MainViewController.swift in Sources */,
 				E906EB25240B3F8400EA4EEC /* LoginViewController.swift in Sources */,
